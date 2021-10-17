@@ -1,0 +1,38 @@
+{
+  "name": "xi-frontend-pro",
+  "version": "1.0.0",
+  "description": "This is an example of a typical request: A friend of us wants to publish a list of video games and the details. Kind of a blog.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "json-server": "^0.16.3",
+    "servor": "^4.0.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.18.2",
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "build": "webpack --mode production --config webpack.prod.js",
+    "serve": "webpack serve --mode development --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jbayos@gitkc.cloud/keepcoding-bootcamps/full-stack-web-bootcamp-xi/frontend-pro/frontend-pro.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+$maxWidthSnippet: 220px;
+.game-snippet {
+    .game-image-container, .game-name {
+        text-align: center;
+    }
+    max-width: $maxWidthSnippet;
+    .game-name {
+        max-width: $maxWidthSnippet;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
